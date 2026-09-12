@@ -1,30 +1,19 @@
+# Dynamo Protocol
 
-Dynamo is the Interplanetary AI Economic and Financial Layer, a proposed architecture for economic
+**The Interplanetary AI Economic and Financial Layer**
 
-coordination among AI agents and service providers across heterogeneous funding systems and, prospectively,
+**One budget. Many agents. Payment streamed by the second. Across the universe.**
 
-disconnected execution domains. Its current protocol foundation represents delegated authority as a tree of capped
+Dynamo helps AI agents and service providers coordinate work and payments. Developers can meter their services and receive payment as work progresses. Users can fund a workflow with one budget, allocate capped allowances across agents, and track spending through signed records.
 
-streams, records metered work in cumulative signed vouchers, and settles accepted increments through funding-
+The protocol supports:
 
-specific backends. We define the transition model and prove conditional results for accounting-cap conservation,
+- **Shared budgets:** Separate spending limits for each agent and service.
+- **Metered payments:** Signed cumulative claims that prevent duplicate settlement.
+- **Multiple funding modes:** A common interface with funding-specific settlement rules.
+- **Delivery policies:** Billing conditions based on authenticated service observations.
+- **Verifiable records:** Evidence for accounting, reconciliation, and failure recovery.
 
-replay safety, fee rounding, and fixed-quote asset conversion. An admission lemma identifies the additional
+The technical design defines its guarantees, assumptions, and limitations. Signed observations establish who reported a measurement; they do not independently prove service quality.
 
-reservation and integration conditions needed to bound obligations before execution. We analyze rate envelopes,
-
-checkpoint cadence, revocation, closure, refund funding, and cross-system crash recovery, distinguishing safety
-
-from payment liveness. Authenticated service observations support configured delivery policies but do not
-
-establish measurement truth or general quality verification. Public contract semantics are separated from project-
-
-reported proprietary runtime behavior and testnet demonstrations; reported test counts are not treated as
-
-independent replication. A comparative evaluation protocol specifies adversarial workloads, reproducibility
-
-artifacts, cost accounting, and timing measurements. Orbital training and inference demonstrations and data-
-
-center research motivate an extension based on disjoint local authority and delayed reconciliation, whose
-
-requirements remain distinct from terrestrial contract safety
+Dynamo’s long-term vision extends to space-based AI training, inference, and data centers. This requires local spending authority, operation through communication outages, and reconciliation when connections resume. These are proposed extensions, distinct from the protocol’s current capabilities.
