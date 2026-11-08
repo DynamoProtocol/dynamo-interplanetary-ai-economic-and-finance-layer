@@ -4,6 +4,10 @@
 
 **One budget. Many agents. Payment streamed by the second. Across the universe.**
 
+## Whitepaper
+
+Read the Dynamo whitepaper: **[Dynamo: The Interplanetary AI Economic and Financial Layer](https://dynamoprotocol.github.io/dynamo-interplanetary-ai-economic-and-finance-layer/Dynamo_Whitepaper_2026.pdf)** (PDF, September 2026)
+
 Dynamo helps AI agents and service providers coordinate work and payments. Developers can meter their services and receive payment as work progresses. Users can fund a workflow with one budget, allocate capped allowances across agents, and track spending through signed records.
 
 The protocol supports:
