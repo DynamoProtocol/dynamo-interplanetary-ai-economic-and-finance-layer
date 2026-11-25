@@ -7,7 +7,8 @@
 ## Whitepaper and papers
 
 - **[Dynamo: The Interplanetary AI Economic and Financial Layer](https://dynamoprotocol.github.io/dynamo-interplanetary-ai-economic-and-finance-layer/Dynamo_Whitepaper_2026.pdf)** (PDF, September 2026): the Dynamo whitepaper.
-- **[The Economics of Agent Payments](https://dynamoprotocol.github.io/dynamo-interplanetary-ai-economic-and-finance-layer/Economics_of_Agent_Payments.pdf)** (PDF, November 2026): a joint paper by Ava Labs and Dynamo Protocol™ on how payment costs change when software agents are the buyer, and what per-use payment requires.
+- **[The Economics of Agent Payments](papers/economics-of-agent-payments/Economics-of-Agent-Payments.md)** (November 2026, [PDF](https://dynamoprotocol.github.io/dynamo-interplanetary-ai-economic-and-finance-layer/papers/economics-of-agent-payments/Economics-of-Agent-Payments.pdf)): a joint paper by Ava Labs and Dynamo Protocol™ on how payment costs change when software agents are the buyer, and what per-use payment requires.
+- All research papers: [papers](papers/)
 
 Dynamo helps AI agents and service providers coordinate work and payments. Developers can meter their services and receive payment as work progresses. Users can fund a workflow with one budget, allocate capped allowances across agents, and track spending through signed records.
 
